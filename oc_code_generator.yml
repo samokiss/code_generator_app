@@ -1,0 +1,22 @@
+# This file is auto-generated during the composer install
+parameters:
+    api_dir: 'Api\'
+    app_dir: 'App\'
+    base_namespace: 'OC\'
+    stub_namespace: 'Doubles\'
+    tests_base_namespace: ''
+    paginated_collection_builder_impl: 'OpenClassrooms\UseCase\Application\Entity\PaginatedCollectionBuilderImpl'
+    paginated_collection_classname: 'OpenClassrooms\UseCase\BusinessRules\Entities\PaginatedCollection'
+    paginated_collection_factory: 'OC\AppBundle\Repository\PaginatedCollectionFactory'
+    entity_util_classname: '%base_namespace%Tests\EntityUtil'
+    security_classname: 'OpenClassrooms\UseCase\Application\Annotations\Security'
+    transaction_classname: 'OpenClassrooms\UseCase\Application\Annotations\Transaction'
+    use_case_classname: 'OpenClassrooms\UseCase\BusinessRules\Requestors\UseCase'
+    use_case_request_classname: 'OpenClassrooms\UseCase\BusinessRules\Requestors\UseCaseRequest'
+    paginated_use_case_response_classname: '%base_namespace%BusinessRules\Responders\PaginatedUseCaseResponse'
+    paginated_use_case_response_builder_classname: '%base_namespace%BusinessRules\Responders\PaginatedUseCaseResponseBuilder'
+    use_case_response_classname: '%base_namespace%BusinessRules\Responders\UseCaseResponse'
+    pagination_classname: '%base_namespace%BusinessRules\Gateways\Pagination'
+    abstract_controller: 'OC\ApiBundle\Framework\FrameworkBundle\Controller\AbstractApiController'
+    collection_information: 'OC\ApiBundle\ParamConverter\CollectionInformation'
+
